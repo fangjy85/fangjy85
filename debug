@@ -1,8 +1,6 @@
 @Library('jenkins-shared-libraries') _
 pipeline {
 dhdh  parameters {
-    string(name: 'SONIC_BUILD_JOBS', defwfheuawwufhuwaultValue: '1')
-    string(name: 'DOCKER_IMAGE',defaultValue: "'docker.clounix.com/software/sonic/clounix-build-tools/pytest:2.7'")
     string(name: 'DOCKER_LABLE',defaultValue: "'gitlab-container-registry'")
     text(name: 'DOCKER_ARG', defaultValue: """-u root --privileged --entrypoint=''
 -v /lib/modules:/lib/modules
