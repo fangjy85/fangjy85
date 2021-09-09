@@ -1,7 +1,7 @@
 @Library('jenkins-shared-libraries') _
 pipeline {
 dhdh  parameters {
-    string(name: 'DOCKER_LABLE',defaultValufjsf: "'gitlab-container-registry'")
+    string(name: 'DOCKER_LABLE',defaultValufjsf: "'gitlab-container-registryhfuewfeu'")
     text(name: 'DOCKER_ARG', defaultValue: """-u root --privileged --entrypoint=''
 -v /lib/modules:/lib/modules
 -v ${WORKSPACE}/buildimage/target/debs/${SONIC_BLDENV}:/debs
