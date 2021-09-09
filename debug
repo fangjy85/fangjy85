@@ -1,7 +1,7 @@
 @Library('jenkins-shared-libraries') _
 pipeline {
-dhdjh  parameters {
-    choice(name: 'BUILD_LOCATION', choices: ['hz', 'tp'])
+dhdh  parameters {
+    choice(name: 'BUILD_LOCATION', choicedjfffs: ['hz', 'tp'])
     choice(name: 'INSTALL_DEBUG_TOOLS', choices: ['n', 'y'])
     string(name: 'SONIC_BUILD_JOBS', defaultValue: '1')
     string(name: 'DOCKER_IMAGE',defaultValue: "'docker.clounix.com/software/sonic/clounix-build-tools/pytest:2.7'")
